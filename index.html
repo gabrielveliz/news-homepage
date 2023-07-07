@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+<body>
+  <div class="gris transform" id="fondogris"></div>
+  <div class="menumobile" id="menumobile">
+    <div class="cerrar" onclick="cerrar()"><img src="assets/images/icon-menu-close.svg" alt="close"></div>
+    <div class="opciones"><a href="#">Home</a></div>
+    <div class="opciones"><a href="#">New</a></div>
+    <div class="opciones"><a href="#">Popular</a></div>
+    <div class="opciones"><a href="#">Trending</a></div>
+    <div class="opciones"><a href="#">Categories</a></div>
+
+  </div>
+<main>
+  <div class="contenedor">
+
+    <div class="fila1">
+      <div><img src="assets/images/logo.svg" alt="logo"></div>
+      <div class="iconomobile" onclick="mostrar()" id="iconomob"><img src="assets/images/icon-menu.svg" alt="iconomenu"></div>
+      <nav class="menudesk">
+        <div><a href="#">Home</a></div>
+        <div><a href="#">New</a></div>
+        <div><a href="#">Popular</a></div>
+        <div><a href="#">Trending</a></div>
+        <div><a href="#">Categories</a></div>
+      </nav>
+    </div>
+
+    <div class="fila2">
+      <div class="colizq">
+        <div><img src="assets/images/image-web-3-desktop.jpg" alt="imageweb"></div>
+        <div class="fila2_2da">
+          <div class="bright"><span>The Bright Future of Web 3.0?</span></div>
+          <div>
+            <div class="dive">
+              <span>  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?</span>
+            </div>
+            <div class="boton">
+              <span>Read more</span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="colder">
+        <div class="colder_titulo"><span>New </span></div>
+        <div class="linea">
+          <div class="colder_enc"><span>Hydrogen VS Electric Cars</span></div>
+          <div class="colder_par"><span>Will hydrogen-fueled cars ever catch up to EVs?</span></div>
+        </div>
+        <div class="linea">
+          <div class="colder_enc"><span>The Downsides of AI Artistry</span></div>
+          <div class="colder_par"><span> What are the possible adverse effects of on-demand AI image generation?</span></div>
+        </div>
+        <div>
+          <div class="colder_enc"><span>Is VC Funding Drying Up?</span></div>
+          <div class="colder_par"><span>Private funding by VC firms is down 50% YOY. We take a look at what that means.</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="fila3">
+
+      <div class="modulo">
+        <div><img src="assets/images/image-retro-pcs.jpg" alt="computador"></div>
+        <div class="modulo_texto">
+          <div class="numero"><span>01</span></div>
+          <div class="fila3_titulo"><span>Reviving Retro PCs</span></div>
+          <div class="fila3_parrafo"><span>What happens when old PCs are given modern upgrades?</span></div>
+        </div>
+      </div>
+
+      <div class="modulo">
+        <div><img src="assets/images/image-top-laptops.jpg" alt="teclado"></div>
+        <div class="modulo_texto">
+          <div class="numero"><span>02</span></div>
+          <div class="fila3_titulo"><span>Top 10 Laptops of 2022</span></div>
+          <div class="fila3_parrafo"><span>Our best picks for various needs and budgets.</span></div>
+        </div>
+      </div>
+
+      <div class="modulo">
+        <div><img src="assets/images/image-gaming-growth.jpg" alt="mando"></div>
+        <div class="modulo_texto">
+          <div class="numero"><span>03</span></div>
+          <div class="fila3_titulo"><span>The Growth of Gaming</span></div>
+          <div class="fila3_parrafo"><span>How the pandemic has sparked fresh opportunities.</span></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</main>
+
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/gabrielveliz" target="_blank">Gabriel Veliz</a>.
+    </div>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+
+
+</body>
+</html>
